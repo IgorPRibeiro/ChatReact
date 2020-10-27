@@ -1,0 +1,52 @@
+[debug] [2020-10-02T22:32:40.414Z] ----------------------------------------------------------------------
+[debug] [2020-10-02T22:32:40.421Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pinhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2020-10-02T22:32:40.421Z] CLI Version:   8.11.2
+[debug] [2020-10-02T22:32:40.421Z] Platform:      win32
+[debug] [2020-10-02T22:32:40.422Z] Node Version:  v12.18.3
+[debug] [2020-10-02T22:32:40.424Z] Time:          Fri Oct 02 2020 19:32:40 GMT-0300 (GMT-03:00)
+[debug] [2020-10-02T22:32:40.425Z] ----------------------------------------------------------------------
+[debug] [2020-10-02T22:32:40.425Z] 
+[debug] [2020-10-02T22:32:40.437Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-02T22:32:40.438Z] > authorizing via signed-in user
+[debug] [2020-10-02T22:32:40.438Z] [iam] checking project sprechen-e44ff for permissions ["firebase.projects.get"]
+[debug] [2020-10-02T22:32:40.443Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sprechen-e44ff:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-10-02T22:32:41.487Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 02 Oct 2020 22:32:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=813","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-10-02T22:32:43.506Z] defaultcredentials: writing to file C:\Users\pinhe\AppData\Roaming\firebase\igorpinheiroribeiro14_gmail_com_application_default_credentials.json
+[debug] [2020-10-02T22:32:43.508Z] DEBUG: Setting GAC to C:\Users\pinhe\AppData\Roaming\firebase\igorpinheiroribeiro14_gmail_com_application_default_credentials.json
+[debug] [2020-10-02T22:32:43.522Z] [functions] Watching "C:\Users\pinhe\Documents\ReactProjects\superchat\functions" for Cloud Functions...
+[debug] [2020-10-02T22:32:43.572Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-10-02T22:32:43.572Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-10-02T22:32:43.573Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-10-02T22:32:43.573Z] DEBUG: [worker-~diagnostic~-966580d3-17cd-488d-bf6b-86bd5f65b627]: Assigning socketPath: \\?\pipe\C:\Users\pinhe\Documents\ReactProjects\superchat\functions\13156
+[debug] [2020-10-02T22:32:43.573Z] DEBUG: [worker-~diagnostic~-966580d3-17cd-488d-bf6b-86bd5f65b627]: BUSY
+[debug] [2020-10-02T22:32:44.225Z] DEBUG: [runtime-status] [13156] Functions runtime initialized. {"cwd":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions","node_version":"12.18.3"}
+[debug] [2020-10-02T22:32:44.227Z] DEBUG: [runtime-status] [13156] Disabled runtime features: undefined
+[debug] [2020-10-02T22:32:44.236Z] DEBUG: [runtime-status] [13156] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-10-02T22:32:44.239Z] DEBUG: [runtime-status] [13156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-10-02T22:32:44.241Z] DEBUG: [runtime-status] [13156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-10-02T22:32:44.243Z] DEBUG: [runtime-status] [13156] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-10-02T22:32:44.244Z] DEBUG: [runtime-status] [13156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-10-02T22:32:44.341Z] DEBUG: [runtime-status] [13156] Checked functions.config() {"config":{}}
+[debug] [2020-10-02T22:32:44.342Z] DEBUG: [runtime-status] [13156] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.11.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2020-10-02T22:32:44.344Z] DEBUG: [runtime-status] [13156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-10-02T22:32:44.346Z] DEBUG: [runtime-status] [13156] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-10-02T22:32:44.348Z] DEBUG: [runtime-status] [13156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-10-02T22:32:44.348Z] DEBUG: [runtime-status] [13156] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-10-02T22:32:44.356Z] DEBUG: [runtime-status] [13156] initializeApp(DEFAULT) {"databaseURL":"https://sprechen-e44ff.firebaseio.com","storageBucket":"sprechen-e44ff.appspot.com","projectId":"sprechen-e44ff"}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production. {"metadata":{"emulator":{"name":"functions"},"message":"The Cloud Firestore emulator is not running, so calls to Firestore will affect production."}}
+[warn] !  TypeError: functions.firestore.document(...).onCreated is not a function
+    at Object.<anonymous> (C:\Users\pinhe\Documents\ReactProjects\superchat\functions\index.js:10:4)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at C:\Users\pinhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:681:33
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\pinhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: functions.firestore.document(...).onCreated is not a function\n    at Object.<anonymous> (C:\\Users\\pinhe\\Documents\\ReactProjects\\superchat\\functions\\index.js:10:4)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at C:\\Users\\pinhe\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:681:33\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\pinhe\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:5:58)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2020-10-02T22:32:44.897Z] DEBUG: [worker-~diagnostic~-966580d3-17cd-488d-bf6b-86bd5f65b627]: exited
+[debug] [2020-10-02T22:32:44.897Z] DEBUG: [worker-~diagnostic~-966580d3-17cd-488d-bf6b-86bd5f65b627]: FINISHED
